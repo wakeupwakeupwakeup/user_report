@@ -55,8 +55,6 @@ const CardsArray = () => {
                                 <div className={"flex w-full h-full items-center justify-center"}>
                                     <span className={"text-lg font-bold"}>No results</span>
                                 </div>
-
-
                 }
             </div>
             <div>
