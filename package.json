@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.200",
     "axios": "^1.5.1",
+    "lodash": "^4.17.21",
     "next": "13.5.6",
     "openssl": "^2.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "zustand": "^4.4.4"
   },
   "devDependencies": {
     "@types/node": "^20",
