@@ -2,7 +2,9 @@ import Image from "next/image";
 import React from "react";
 import { User } from "@/components/CardsArray";
 import { useUsers } from "@/store";
+
 const UserCard = ({ userInfo }: { userInfo: User }) => {
+    
     const infoToDisplay = ['phone', 'email']
     const setSelectedUser = useUsers(state => state.setSelectedUser)
 
